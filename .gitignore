@@ -1,0 +1,16 @@
+# Ignore all node_modules folders
+node_modules/
+
+# Ignore the backend .env file
+# This is the most important line for security!
+/backend/.env
+
+# Ignore frontend build output
+/frontend/dist/
+
+# Ignore npm log files
+npm-debug.log*
+*.log
+
+# Ignore OS-specific files
+.DS_Store
